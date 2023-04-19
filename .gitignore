@@ -1,0 +1,23 @@
+#Ignore temporary editor files.
+.*.sw[po]
+*~
+.DS_Store
+
+# Ignore project files
+*.pyproj
+*.sublime-project
+*.sublime-workspace
+sftp-config.json
+.idea
+.vscode
+
+# Ignore binaries.
+*.py[cod]
+*.so
+*.dll
+
+# Python virtual environment.
+.venv/
+
+# Database.
+db.sqlite3
